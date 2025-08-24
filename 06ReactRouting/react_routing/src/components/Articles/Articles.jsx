@@ -40,7 +40,7 @@ const productsData = [
 
     if(sortBy==="true"){
 
-      // a-b = 1 to 3( accending order)  & b-a = 3 to 1 ( Decending Order)
+      // a-b = 1 to 3( accending order)  & b-a = 3 to 1 ( Decending Ordercd)
       filterData = [...filterData].sort((a,b)=>b.views - a.views)
     }
 
